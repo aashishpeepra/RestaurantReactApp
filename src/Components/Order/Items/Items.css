@@ -1,0 +1,14 @@
+.Items{
+    background-color: #242424;
+    padding:10px;
+}
+.Items a{
+    margin-bottom:10px;
+}
+.ItemsHead{
+    color:#fff;
+    font-size:140%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom:5px auto;
+}

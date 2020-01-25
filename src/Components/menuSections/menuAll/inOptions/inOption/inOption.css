@@ -1,0 +1,95 @@
+.inOption{
+    margin:20px 7px;
+    padding:10px 3px;
+    height:auto;
+    display: inline-block;
+    min-height: 380px;
+    transition: 0.4s ease all;
+    width:300px;
+    /* min-width: 300px;
+    max-width: 300px; */
+    color:#fff;
+    /* background-color: #fff; */
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./backPizza.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 10px 10px #0b0b0b;
+}
+.inOption:hover{
+    box-shadow: 0 20px 20px #0b0b0b;
+    
+}
+
+.inHead{
+    text-transform: capitalize;
+    font-size: 140%;
+}
+.inContent{
+    margin:4px auto;
+    letter-spacing: 1px;
+    font-size:80%;
+}
+.inPrice{
+    margin:0;
+    font-weight: bold;
+    color:#fff;
+    font-size:120%;
+}
+.inImgBox{
+    height:180px;
+    width:auto;
+    padding:0px 5px;
+    margin:5px 10px;
+}
+.inImgBox img{
+    height: 100%;
+    width: 100%;
+}
+.customize{
+    display: block;
+    opacity: 0.3;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7));
+    opacity: 0.8;
+    color:#fff;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.customize:hover{
+    color:#ff652f;
+    font-weight: bold;
+}
+.inOption a:link,.inOption a:visited{
+    text-decoration:none;
+    color:#fff;
+    border-radius: 200px;
+    padding:3px 10px;
+    background-color: #ff652f;
+    transition: all ease 0.4s;
+    margin:0 7px;
+}
+.inOption a:hover,.inOption a:active{
+    background-color: #ea3d00;
+}
+.inOption .active{
+    background-color: #ff581e;
+    color:#14a76c;
+}
+.showCustomize{
+    height: 100%;
+    position: static;
+    width: 100%;
+    opacity: 0.8;
+    background-color:#fff;
+}
+.inOpButton{
+    transition: all 0.4s ease;
+    background-color:#ff652f;
+    color:#fff;
+    border:0;
+    cursor: pointer;
+    border-radius:200px;
+    padding:1px 10px;
+}
+.inOpButton:hover{
+    background-color: #ea3d00;
+}

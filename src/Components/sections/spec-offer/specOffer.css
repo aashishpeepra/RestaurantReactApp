@@ -1,0 +1,41 @@
+.specOffer{
+    display: inline-block;
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)) ,url("./pizzaParty.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.offerArrange{
+    margin-top:20vh;
+}
+.offerHead{
+    font-size:280%;
+    color:#ffe400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.offerContent{
+    font-size:160%;
+    letter-spacing: 2px;
+    color:#fff;
+    text-transform: capitalize;
+}
+.offerStarting{
+    display: inline;
+    font-size: 150%;
+    letter-spacing: 1px;
+    color:#ffe400;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.offerDigit{
+    font-size:250%;
+    color:#14a76c;
+
+}
+
+/* .offerButton{
+
+} */

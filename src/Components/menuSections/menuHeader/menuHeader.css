@@ -1,0 +1,52 @@
+.menuHeader{
+    top:0;
+    left:0;
+    height:60vh;
+    background-attachment: fixed;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./jay.jpg");
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width:660px){
+    .menuHeader{
+        height:40vh;
+        background-size: contain;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("./jay.jpg");
+    }
+}
+.menuTitle{
+    padding-right:auto;
+    padding-left: auto;
+    margin-top:50px;
+    font-size:300%;
+    color:#fff;
+    display: inline-block;
+    border-bottom:2px solid #ff652f;
+    font-weight: 300;
+}
+.menuHeader ul{
+    list-style: none;
+    margin:0 auto;
+}
+.menuHeader li a{
+    text-decoration: none;
+    color:#fff;
+}
+.menuHeader li .active{
+    font-weight: bold;
+    color:#14a76c;
+}
+.menuHeader li .active:hover{
+    color:#fff;
+}
+.menuHeader li{
+    font-size: 120%;
+    letter-spacing: 1px;
+    display: inline;
+    padding:10px 10px;
+}
+.menu-options{
+
+    margin-top:60px;
+}

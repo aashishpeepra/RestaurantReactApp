@@ -1,0 +1,43 @@
+.menuAll{
+    padding:20px auto;
+}
+.addCustomization{
+    height:400px;
+    color:#fff;
+    width:70vw;
+    background-image: linear-gradient(to right, #ff652f , #d93800);
+    z-index: 600;
+    top:0;
+    left:0;
+    position: absolute;
+}
+.xyz{
+    float:left;
+}
+.CustomizationHeader{
+    font-size:140%;
+}
+input[select]{
+    background-color: aqua;
+
+}
+.addCustomization button{
+    margin:10px 10px;
+    padding:5px 15px;
+    border-radius: 200px;
+}
+.cross{
+    font-size: 140%;
+    color:#fff;
+    float: right;
+    cursor: pointer;
+    transition: ease 0.4s all;
+    margin:0 10px;
+    position:absolute;
+}
+.cross:hover{
+    padding:4px 3px;
+    font-size: 150%;
+    box-shadow: 0 10px 10px #d93800;
+
+}

@@ -1,0 +1,40 @@
+.Cart{
+    top:0;
+    left:0;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./cart.jpg');
+    background-position:center;
+    background-attachment: fixed;
+    height:65vh;
+    color:#fff;
+    width:100vw;
+}
+@media screen and (max-width:660px){
+    .Cart{
+        height:40vh;
+        background-size: contain;
+    }
+}
+.CartHead{
+    padding-top:10vh;
+   margin:10px auto;
+    font-size:150%;
+    display: inline-block;
+    border-bottom:2px solid #14a76c;
+}
+.Cart a{
+    text-decoration: none;
+    color:#fff;
+    padding:0 10px;
+}
+.Cart .active{
+    color:#14a76c;
+}
+.cartTotal p{
+    font-size:130%;
+    
+}
+.cartTotal{
+    padding:20px 10px;
+    background:linear-gradient(to right,#14a76c,#0f7a4f);
+    color:#fff;
+}

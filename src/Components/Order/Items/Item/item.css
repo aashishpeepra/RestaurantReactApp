@@ -1,0 +1,16 @@
+.item {
+    height:auto;
+    width:100%;
+    margin:10px 10px;
+    
+}
+.item p{
+    
+    font-size:90%;
+}
+.itemHead{
+    color:#ff652f;
+}
+.itemPrice{
+    color:#14a76c;
+}

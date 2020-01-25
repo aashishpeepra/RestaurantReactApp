@@ -1,0 +1,46 @@
+.spec{
+    height:auto;
+    padding-top: 10px;
+    margin-top:10px auto;
+    width:100%;
+    min-width: 200px;
+}
+.spec img{
+    margin-bottom:4px;
+    height:80px;
+    width:auto;
+}
+.specHead{
+    font-size:120%;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+.spec hr{
+    display: inline-block;
+    width:200px;
+    background-color: #ff652f;
+}
+.specContent{
+    align-content: center;
+    width:100%;
+    margin:0 auto;
+    font-size: 80%;
+    color:#747474;
+    line-height: 145%;
+    word-spacing: 2px;
+}
+@media screen and (min-width:760px){
+    .specContent{
+        font-size:100%;
+    }
+    .spec{
+        min-width:25px;
+    }
+}
+@media screen and (max-width:500px){
+    .spec{
+        height:200px;
+        margin-top:30px;
+        padding-top:0;
+    }
+}

@@ -1,0 +1,127 @@
+.toolbar{
+    font-size:100%;
+    display: inline-block;
+    padding-top:15px;
+    transition: all 0.4s ease-in-out;
+    
+}
+.back{
+    background-color: #242424;
+}
+.toolbar a{
+    text-decoration: none;
+    color:#fff;
+}
+.toolbar:hover{
+    border-bottom:1px solid #fff;
+    /* border-left:1px solid #747474;
+    border-right: 1px solid #747474; */
+    padding:0 10px;
+}
+.toolbar:hover img {
+    color:green;
+}
+.toolbar img{
+    height:30px;
+    width:auto;
+}
+.t-ext{
+    /* background-color: #272727; */
+    color:#fff;
+    height:90px;
+    font-weight: 400;
+    position: sticky;
+}
+.number{
+    padding-top:13px;
+    font-size:140%;
+    color:#fff;
+    float: right;
+    transition: all ease-in-out 0.4s;
+}
+.number:hover{
+    color: #14a76c;
+}
+.convo{
+    display: inline-block;
+
+    padding-right:2px;
+}
+.count{
+    margin-left:5px;
+    padding:2px 5px;
+    text-align: center;
+    font-size:70%;
+    background-color:#747474;
+    border-radius: 100px;
+    border:1px solid #747474;
+}
+.short{
+    z-index:2000;
+    display: none;
+    transition: all ease 0.4s;
+    cursor: pointer;
+    position: fixed;
+    top:0;
+    left:0;
+}
+.contentTool{
+    height:100vh;
+    width:60vw;
+    color: #ff652f;
+    top:0;
+    z-index:2000;
+    background-color:#242424;
+    left:0;
+    opacity: 0;
+    display:none;
+    transition: all ease 0.4s;
+}
+
+.contentShow{
+    display: block;
+    transform: translateX(-180);
+    opacity: 1;
+}
+.smallImgBox{
+    height:50px;
+    width:auto;
+    float:right;
+}
+.smallImgBox img{
+    height:100%;
+    width:auto;
+}
+
+.items{
+    padding-top:40%;
+}
+.eachOne{
+    margin-top:30px;
+}
+.eachOne:hover{
+    padding:10px 0;
+    background-color:#0b0b0b;
+}
+.linkContainer{
+    padding-top: 13px;
+}
+.linkContainer a{
+    text-decoration: none;
+    color:#ff652f;
+    font-size: 130%;
+    float:left;
+}
+.short img{
+    float: left;
+    padding-top:10px;
+    padding-left:15px;
+}
+@media screen and (max-width:770px){
+    .t-ext{
+        display: none;
+    }
+    .short{
+        display: block;
+    }
+}

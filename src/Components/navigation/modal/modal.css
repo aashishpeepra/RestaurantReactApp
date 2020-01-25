@@ -1,0 +1,14 @@
+.Modal{
+    position: absolute;
+    height:auto;
+    width:auto;
+    top:0;
+    margin:50% 15%;
+    background-color: #fff;
+    z-index:700;
+}
+@media screen and (max-width:660px){
+    .Modal{
+    margin:70% 15%;
+    }
+}

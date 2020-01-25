@@ -1,0 +1,73 @@
+.Header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("./vlad.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.controls{
+    padding:5px 15px;
+    position: absolute;
+    top:90vh;
+}
+.circle{
+    display: inline-block;
+    margin:0 3px;
+    height: 17px;
+    width:17px;
+    border-radius: 50%;
+    border:1px solid #ff652f;
+    transition: 0.4s ease all;
+    cursor: pointer;
+}
+.circle:hover{
+    background-color: #ff652f;
+}
+ .full{
+    display: inline-block;
+    margin:0 3px;
+    height: 17px;
+    width:17px;
+    border-radius: 50%;
+    border:1px solid #ff652f;
+    transition: 0.4s ease all;
+    cursor: pointer;
+    background-color: #ff652f;
+}
+.internal-c{
+    padding-left:45vw;
+}
+.button-offer{
+    margin-left:70vw;
+}
+.sec-tiles{
+    margin-top: 60px;
+} 
+.specs{
+    margin-top:70px;
+    background-color: #f5f5f5;
+    padding-bottom:20px;
+}
+.specOffer{
+    margin-bottom:50px;
+}
+.sec-map{
+    margin-top:80px;
+    display: block;
+    padding-bottom:75vh;
+    position: static;
+}
+@media screen and (max-width:1170px){
+    .Header{
+        background-size: contain;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("./vlad-img.jpg");
+    }
+} 
+@media screen and (max-width:700px){
+    .Header{
+        background-size: contain;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("./vlad.jpg");
+    }
+} 

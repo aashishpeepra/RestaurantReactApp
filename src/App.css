@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  font-family: 'Lato','Ariel',sans-serif;
+  font-size:20px;
+  margin:0;
+  padding:0;
+  z-index: 100;
+  overflow-x: hidden;
+}
+.App a{
+  text-decoration: none;
+}
+@media screen and (max-width:770px){
+  .App{
+    font-size: 15px;
+  }
+}
