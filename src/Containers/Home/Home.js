@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import './Home.css';
+// import './Home.css';
 import Toolbar from '../../Components/navigation/toolbar/toolbar';
 import Header from '../../Components/sections/section-header/section';
 

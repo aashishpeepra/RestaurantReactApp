@@ -12,7 +12,6 @@ const Items=(props)=>{
             {props.data.map(element=><Item key={element.head} name={element.head} counter={element.counter} price={element.price}/>)}
             <Item name="Your Total " price={k}/>
             <Button url="/cart" content="Manage in Cart"/>
-            
         </Container>
     </div>
     );
