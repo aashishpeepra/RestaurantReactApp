@@ -1,53 +1,75 @@
-.OrderForm{
-    padding-bottom:10px;
+.OrderForm {
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
-.OrderForm button{
-    background-color: #ff652f;
-    color:#fff;
-    border-radius: 200px;
-    padding:5px 15px;
-    border:0;
-    transition: all ease 0.4s;
-    cursor: pointer;
+.OrderForm button {
+  background-color: #ff652f;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  border: 0;
+  transition: all ease 0.4s;
+  cursor: pointer;
 }
-.OrderForm button:hover{
-    box-shadow: 0 6px 6px #0b5b3b;
-    background-color:#ea3d00;
+.OrderForm button:hover {
+  box-shadow: 0 6px 6px #0b5b3b;
+  background-color: #ea3d00;
 }
-.OrderForm form legend p{
-    font-size:80%;
-    float:right;
-    letter-spacing: 1px;
-    color:#fff;
+.OrderForm form legend p {
+  width: 100%;
+  font-size: 80%;
+  float: right;
+  text-align: right;
+  letter-spacing: 1px;
+  color: #fff;
 }
-.OrderForm form input{
-    font-size:80%;
-    text-align: center;
-    padding:5px 5px;
-    border-radius: 200px;
-    float:left;
-    
-    border:1px solid #ff652f;
-}.OrderForm form input:focus{
-    border:2px solid #ff652f;
-    background-color: #f5f5f5;
+.form__container {
+  width: 50%;
+  margin: 0 auto;
+  /* background-color: grey; */
 }
-@media screen and (max-width:660px){
-    .OrderForm form input{
-        width:155px;
-    }
+.form__container {
+  @media (max-width: 600px) {
+    width: 75%;
+  }
 }
-.OrderFormHead{
-    text-transform: capitalize;
-    font-size: 140%;
+.OrderFormHead {
+    padding-top: 15px;
+  color: #fff;
+  font-size: 24px;
 }
-.OrderFormNotice{
-    margin-top:5px;
-    color:#fff;
-    font-size:70%;
+.OrderForm form input {
+  font-size: 80%;
+  /* text-align: center; */
+  padding: 3px 8px;
+  border-radius: 5px;
+  width: 80%;
+  float: left;
+  /* border:1px solid #ff652f; */
+  border: none;
+  margin-left: 30px;
 }
-@media screen and (max-width:660px){
-    .OrderForm form legend p{
-        font-size: 60%;
-    }
+.OrderForm form input:focus {
+  outline: none;
+  border: 1px solid #ff652f;
+  background-color: #f5f5f5;
+}
+@media screen and (max-width: 660px) {
+  .OrderForm form input {
+    width: 155px;
+  }
+}
+.OrderFormHead {
+  text-transform: capitalize;
+  font-size: 140%;
+}
+.OrderFormNotice {
+  margin-top: 5px;
+  color: #fff;
+  font-size: 70%;
+}
+@media screen and (max-width: 660px) {
+  .OrderForm form legend p {
+    font-size: 60%;
+  }
 }

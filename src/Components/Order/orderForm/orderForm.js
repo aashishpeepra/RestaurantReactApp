@@ -42,6 +42,7 @@ class  orderForm extends Component{
         <div className="OrderForm">
         <p className="OrderFormHead">Fill Delivery Details</p>
             <form id="orderForm">
+                <div className="form__container">
                 <Container>
                     <Row>
                         <Col xs="4" xl="4">
@@ -104,6 +105,7 @@ class  orderForm extends Component{
                         </Col>
                     </Row>
                 </Container>
+                </div>
                 <button type="button" onClick={()=>this.props.place({checkOut})}>Place Order</button>
             </form>
             
